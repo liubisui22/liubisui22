@@ -1,46 +1,42 @@
-# Happy Farm 🌱🌻
+# Happy Farm 🌲🌻
 ## 如何安裝與執行
-- 1. 安裝[JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
-- 2. 下載安裝[IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
-- 3. 打開IntelliJ IDEA
-- 4. 複製檔案位置連結
-- 5. 
-- 6. 
-- 7. 
-- 8. 
-- 9. 
+- 安裝[JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) version "17.0.1"
+- 下載安裝[IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
+- 下載安裝[MySQL](https://dev.mysql.com/downloads/file/?id=508940)
+- 進入MySQL Workbench8.0 CE 後，點選MySQL Connections 下的灰色方框(Local Instance) → 點擊左上方Edit下的"打開SQL script file" → 選擇開啟解壓縮後的"第二十四組_OOPII_Project_Final"中的farmSQL.sql → 點選⚡️符號執行即可一鍵新增資料庫😎👍🏻
+- 從解壓縮後的"第二十四組_OOPII_Project_Final"中選擇happyfarm資料夾，並複製目前所在位置的遊戲專案路徑位址
+- 打開IntelliJ IDEA，點選左上角File → Open → 貼上遊戲專案路徑位址
+- 點選Menu的File → Project Settings → Project → Project SDK → 選擇java version "17.0.1"
+- 開啟Main.java
+- 點選右上方綠色三角形開始鍵，即可進入遊戲
 
-## 遊戲說明
-- 1. 點擊開始即可進行遊戲
-- 2. 點擊草地就會種花
-- 3. 每需要澆水二次後，即可收成
-- 4. 每次澆水都有時限，如在時間內未完成，花就會死亡
-- 5. 成功收成就會有 100 收入
-- 6. 死亡一裸會失去 200 收入，該地要重整才可以再種植
-- 7. 體力會自動恢復
-- 8. 每個動作的體力為：種花、澆水 30 | 整地、種植 50
-- 9. 使用道具康貝特需消耗 20 收入，可恢復體力 50
+## 遊戲規則
+- 點擊開始即可進行遊戲
+- 點擊草地就會種花
+- 每需要澆水二次後，即可收成
+- 每次澆水都有時限，如在時間內未完成，花就會死亡
+- 成功收成就會有 100 收入
+- 死亡一棵會失去 200 收入，該地要重整才可以再種植
+- 體力會自動恢復
+- 每個動作的體力為：種花🌼 30、澆水💧 30 、整地🪓 50、種植🌱 50
+- 使用道具消耗 20 收入，可恢復體力 50
 
-## Implementation
-- Navigation is via FXML files
-- __Load Game__ menu is used to load multiple saved states of the game. Everytime a user saves a game, the game state is given an id, which is displayed as Game_ID along with the level on which the game was saved. 'Delete all progress' removes all the saved game states.
-- __Level Menu__ can be used for starting a new game from the unlocked levels. A user cannot play a new level if they haven't won the all previous levels.
-- __Exit Game__ saves all the progress and exits the game.
-- __In Game Menu__: Allows the user to save the game, restart the game or exit to main menu.
-- Levels become harder as the user progresses through the game. The cone and bucket zombies start appearing in subsequent levels, their frequency also increases. 
-- Different menus on winning and losing a game. Winning tells the user about the new plant unlock and losing menu gives the message “Zombies ate your brains”
-- After placing a plant, a plant is locked for sometime before it can be planted again.
-- The __shovel__ can be used to remove a plant from the lawn.
-- Sound effects have been added for all interactions on the lawn to enhance the experience.
-- The users can also choose between the day and the night mode. Unlike the day mode, no sun tokens fall from the sky in the night mode, and sunflowers are the only source of sun tokens.
+## 操作說明
+- 玩家創建帳號後開啟《開心農場》
+- 登入帳號後可選擇開始遊戲
+- 遊戲開局時玩家配有 4 X 5 格的草地、種子、以及200體力值(體力會自動恢復)
+- 玩家可點選既有草地中的任一格種子，於點選後該格便會觸發開始種植的事件
+- 在種植時需注意要完成兩次澆水動作，才可收成作物
+- 種植過程中，會提示玩家完成澆水動作的倒數冷卻時間
+- 若未於時間內完成澆水任務則該作物會死亡
 
-## Design Patterns
-1. Singleton: For the database and for shovel feature, as we need only one reference through out the game.
-2. Iterator - To ensure that Plant, Zombie and Lawnmower lists are accessed in a synchronized way.
-3. Facade for menu based implementation
+## 各檔案之性質
+-
+-
+-
 
 
-## Screenshots from the game
+## 測試安裝成功之步驟
 ![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/1.png)
 ![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/4.png)
 ![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/Arena.png)
@@ -48,19 +44,3 @@
 ![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/5.png)
 ![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/3.png)
 
-## How To play
-### Executing the JAR File
-To play the game, the following steps can be followed:
-1. Clone this repository using the command: `git clone https://github.com/BhavyaC16/Plants-Vs-Zombies.git`
-2. cd into the directory `Plant-Vs-Zombies-JAR` using: `cd PlantsVsZombies/Plant-Vs-Zombies-JAR`
-3. Download the JavaFX SDK 11.0.2 from [here](https://gluonhq.com/products/javafx/), depending on your platform. Unzip and situate the folder `javafx-sdk-11.0.2` in `PlantsVsZombies/Plant-Vs-Zombies-JAR`
-4. Execute the command `./PlantsVsZombies.sh` . Alternatively, execute the command `java --module-path ~/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media -jar PlantVsZombies.jar`<br>
-(Note: `--module-path` specifies the path to your JavaFX SDK 11 lib folder. The variable `LIB_PATH` in `PlantsVsZombies` holds the path to the lib folder, and can be updated accordingly.)
-
-## Code and assets
-Path to code: `PlantVsZombies/src/sample` <br>
-Path to Images and sounds: `PlantVsZombies/src/sample/assets`
-
-## License
-### GNU General Public License v3.0
-You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.
