@@ -31,7 +31,7 @@
 - 若未於時間內完成澆水任務則該作物會死亡
 
 ## 各檔案之性質
--
+-https://github.com/liubisui22/liubisui22/blob/main/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true
 -
 -
 
