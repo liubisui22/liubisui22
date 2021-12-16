@@ -3,7 +3,7 @@
 - 安裝[JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) version "17.0.1"
 - 下載安裝[IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
 - 下載安裝[MySQL](https://dev.mysql.com/downloads/file/?id=508940)
-- 進入MySQL Workbench8.0 CE 後，點選MySQL Connections 下的灰色方框(Local Instance) → 點擊左上方Edit下的"打開SQL script file" → 選擇開啟解壓縮後的"第二十四組_OOPII_Project_Final"中的farmSQL.sql → 點選⚡️符號執行即可一鍵新增資料庫😎👍🏻
+- 進入MySQL Workbench8.0 CE 後，點選MySQL Connections 下的灰色方框(Local Instance)登入 → 點擊左上方Edit下的"打開SQL script file" → 選擇開啟解壓縮後的"第二十四組_OOPII_Project_Final"中的farmSQL.sql → 點選⚡️符號執行即可一鍵新增資料庫😎👍🏻
 - 從解壓縮後的"第二十四組_OOPII_Project_Final"中選擇happyfarm資料夾，並複製目前所在位置的遊戲專案路徑位址
 - 打開IntelliJ IDEA，點選左上角File → Open → 貼上遊戲專案路徑位址
 - 點選Menu的File → Project Settings → Project → Project SDK → 選擇java version "17.0.1"
@@ -32,16 +32,9 @@
 
 ## 各檔案之性質
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B%E5%9C%96.png)
--https://github.com/liubisui22/liubisui22/blob/main/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true
--
--
+
 
 
 ## 測試安裝成功之步驟
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/1.png)
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/4.png)
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/Arena.png)
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/2.png)
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/5.png)
-![alt_text](https://github.com/BhavyaC16/Plants-Vs-Zombies/blob/master/GameplayScreenshots/3.png)
+
 
