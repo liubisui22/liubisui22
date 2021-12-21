@@ -11,7 +11,7 @@
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/mysql3.png)
 - 從解壓縮後的"第二十四組_OOPII_Project_Final"中選擇happyfarm資料夾，並複製目前所在位置的遊戲專案路徑位址
 - 打開IntelliJ IDEA，點選左上角File → Open → 貼上遊戲專案路徑位址
-- 點選Menu的File → Project Settings → Project → Project SDK → 選擇java version "17.0.1"
+- 點選Menu的File → Project Structure → Project → Project SDK → 選擇 version "17.0.1"
 - 開啟Main.java
 - 點選右上方綠色三角形開始鍵，即可進入遊戲
 
@@ -29,7 +29,7 @@
 ## 操作說明
 - 玩家創建帳號後開啟《開心農場》
 - 登入帳號後可選擇開始遊戲
-- 遊戲開局時玩家配有 4 X 5 格的草地、種子、以及200體力值(體力會自動恢復)
+- 遊戲開局時玩家配有 4 X 5 格的草地、種子、以及 200 體力值 (體力會自動恢復)
 - 玩家可點選既有草地中的任一格種子，於點選後該格便會觸發開始種植的事件
 - 在種植時需注意要完成兩次澆水動作，才可收成作物
 - 種植過程中，會提示玩家完成澆水動作的倒數冷卻時間
