@@ -1,6 +1,6 @@
 # Happy Farm 🌲🌻
 ## 如何安裝與執行
-- [點我看安裝教學影片]()
+- [點我看安裝教學影片](https://youtu.be/N2DM61BhDvM)
 - 安裝[JDK](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe) version "17.0.1"
 - 下載安裝[IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
 - 下載安裝[MySQL](https://dev.mysql.com/downloads/file/?id=508940)
