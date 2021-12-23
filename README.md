@@ -14,7 +14,11 @@
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/mysql3.png)
 
 - 從解壓縮後的"第二十四組_OOPII_Project_Final"中選擇happyfarm資料夾，並複製目前所在位置的遊戲專案路徑位址
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/openfile1.png)
+
 - 打開IntelliJ IDEA，點選左上角File → Open → 貼上遊戲專案路徑位址
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/openfile2.png)
+
 - 按住鍵盤的【ctrl+shift+f】開啟搜尋框，於🔍旁輸入【password】，滑鼠雙擊反藍的字樣【String db_password = "mysql123";】
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/ChangePwd.png)
 
