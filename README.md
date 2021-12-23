@@ -51,3 +51,12 @@
 - 打開IntelliJ IDEA，點選右上角綠色三角形開始執行程式，成功後會出現下方"DB: 遠端連接成功"字樣，並出現遊戲登入畫面，即為安裝成功
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/test2.png?raw=true)
 
+
+## 遊戲畫面
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/play1.jpg?raw=true)
+
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/play2.jpg?raw=true)
+
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/play3.jpg?raw=true)
+
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/play4.jpg?raw=true)
