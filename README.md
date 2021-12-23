@@ -46,5 +46,5 @@
 
 
 ## 測試安裝成功之步驟
-
-
+- 成功將"SQL.sql"匯入資料庫內
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/test1.png?raw=true)
