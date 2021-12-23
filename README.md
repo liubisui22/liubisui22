@@ -23,6 +23,9 @@
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/ChangePwdCont.png)
 
 - 點選Menu的File → Project Structure → Project → Project SDK → 選擇 version "17.0.1"
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/sdk1.png)
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/sdk2.png)
+
 - 開啟Main.java
 - 點選右上方綠色三角形開始鍵，即可進入遊戲
 
