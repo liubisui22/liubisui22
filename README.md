@@ -1,7 +1,7 @@
 # Happy Farm 🌲🌻
 ## 如何安裝與執行
 - [點我看安裝教學影片]()
-- 安裝[JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) version "17.0.1"
+- 安裝[JDK](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe) version "17.0.1"
 - 下載安裝[IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
 - 下載安裝[MySQL](https://dev.mysql.com/downloads/file/?id=508940)
 - 進入MySQL Workbench8.0 CE 後，點選MySQL Connections 下的灰色方框(Local Instance)登入
