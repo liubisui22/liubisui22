@@ -17,7 +17,7 @@
 - 打開IntelliJ IDEA，點選左上角File → Open → 貼上遊戲專案路徑位址
 - 按住鍵盤的【ctrl+shift+f】開啟搜尋框，於🔍旁輸入【password】，滑鼠雙擊反藍的字樣【String db_password = "mysql123";】
 - 於【MysqlCon.java程式檔】中修改【第18行】的 "root"，將【root】改成【您的MySQL資料庫帳號】
-- 於【MysqlCon.java程式檔】中修改【第19行】的 "mysql123"，將【root】改成【您的MySQL資料庫密碼】
+- 於【MysqlCon.java程式檔】中修改【第19行】的 "mysql123"，將【root】改成【您的MySQL資料庫密碼】，於修改後按【ctrl+s】存檔
 - 點選Menu的File → Project Structure → Project → Project SDK → 選擇 version "17.0.1"
 - 開啟Main.java
 - 點選右上方綠色三角形開始鍵，即可進入遊戲
