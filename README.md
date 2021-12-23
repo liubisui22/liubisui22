@@ -48,3 +48,6 @@
 ## 測試安裝成功之步驟
 - 成功將"SQL.sql"匯入資料庫內
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/test1.png?raw=true)
+- 打開IntelliJ IDEA，點選右上角綠色三角形開始執行程式，成功後會出現下方"DB: 遠端連接成功"字樣，並出現遊戲登入畫面，即為安裝成功
+![alt_text](https://github.com/liubisui22/liubisui22/blob/main/test2.png?raw=true)
+
