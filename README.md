@@ -8,7 +8,7 @@
 
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/mysql1.png)
 
-- 點擊左上方Edit下的【打開SQL script file】 → 選擇開啟解壓縮後的【第二十四組_OOPII_Project_Final】中的farmSQL.sql
+- 點擊左上方Edit下的【Open a SQL script file in a new query tab】 → 選擇開啟解壓縮後的【第二十四組_OOPII_Project_Final】中的farmSQL.sql
 
 ![alt_text](https://github.com/liubisui22/liubisui22/blob/main/mysql2.png)
 - 點選⚡️符號執行即可一鍵新增資料庫😎👍
